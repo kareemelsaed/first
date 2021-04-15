@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("welcome to our system\n");
+    struct student {
+    char name[25];
+    int id;
+    int date_of_birth[3];
+    int score_of_last_year;
+    };
+   int size=3;
+   struct student ono={"kareem",1,{5,12,2000},500};
+   struct student two={"marwan",2,{27,8,2000},450} ;
+   struct student three={"ayman",1,{14,3,2000},600} ;
+    return 0;
+}
